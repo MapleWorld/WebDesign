@@ -1,0 +1,338 @@
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+body{
+	background-color: #000000;
+}
+
+/* Allows div to touch edges*/	
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+		
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+   
+/*
+.categories a:hover{
+	background: #888888;
+	opacity: 0.5;
+	position: relative;
+}
+*/
+
+/* Keep it in place even when scrolling*/
+.mainHeader{
+	margin: 0 0 0 0;
+}
+
+.mainHeader .logo{
+	position: absolute;
+	padding: 25px;
+}
+
+.mainHeader .header-box{
+	position:fixed;
+}
+
+.mainHeader nav ul {
+	position: fixed;
+	left: 200px;	
+}
+
+.mainHeader nav ul li {
+	display: block;
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 0px;
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
+/* Close spaces between pictures*/
+.sidebar-items {
+	position: fixed;
+    line-height: 0;
+    top: 125px;
+    float: left;
+}
+
+.menu-pic-item h3{
+	position: absolute;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+
+.menu-pic-item span{
+	display: block;
+	font-size: 0.8em;
+}
+
+.menu-pic-item img{
+
+}
+
+/* ========== Index ==========
+   == Galleries Content Area =
+   =========================== */
+
+.galleries {
+	position: relative;
+	margin-left: 300px;
+	height: auto;
+	margin-top: -5px;
+	/*margin: 3% 0; 
+	overflow: hidden; */
+}
+
+.galleries img{
+    max-width:100% ;
+    max-height:100% ;
+    display:block;
+}
+
+.galleries .slide{
+	
+}
+
+.galleries .slides {
+
+}
+
+
+/* Change Style Depending On Browser Size*/
+/* Smaller than 800px */
+@media (max-width: 800px) {
+	.index-photo-containter{ width: 100%; }
+}
+
+/* Lagger than 800px */
+@media (min-width: 800px) {
+	.index-photo-containter{ width: 50%; }
+}
+
+.index-photo-containter{
+	display: block;
+    float: left;
+	position: relative;
+}
+
+/* ======= Galleries =========
+   == Galleries Content Area =
+   =========================== */
+  
+#tableTitle{
+	font-size: 1.571em;
+	font-family: Tw Cen MT;
+	color: #C0C0C0;
+	padding: 10px;
+}
+
+.categories {
+	position: absolute;
+	left: 215px;
+	margin: 50px 0 2% 0;
+}
+
+.categories img{
+	max-width: 100%;
+    max-height: 100%;
+    float: left;
+}
+
+/* Change Style Depending On Browser Size*/
+/* Smaller than 750px */
+@media (max-device-width: 750px) { 
+	.photoContainter{ width: 100%; }
+}
+
+/* Between 750px and 1000px */
+@media (min-width: 750px) and (max-width: 1000px) {
+	.photoContainter{ width: 50%; }
+}
+
+/* Lagger than 1000px */
+@media (min-width: 1000px) {
+	.photoContainter{ width: 33%; }
+}
+
+.photoContainter{
+	display: block;
+    float: left;
+	position: relative;
+}
+
+
+#landscapeTitle{
+	position: absolute;
+	font-size: 1.53em;
+	height: 30px;
+	margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(192,192,192,0.3);
+    overflow: hidden;
+    padding: 5px;
+}
+
+#portraitTitle{
+	position: absolute;
+	font-size: 1.53em;
+	height: 30px;
+	margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(192,192,192,0.3);
+    overflow: hidden;
+    padding: 5px;
+}
+
+#wildlifeTitle{
+	position: absolute;
+	font-size: 1.53em;
+	height: 30px;
+	margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(192,192,192,0.3);
+    overflow: hidden;
+    padding: 5px;
+}
+
+#plantTitle{
+	position: absolute;
+	font-size: 1.53em;
+	height: 30px;
+	margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(192,192,192,0.3);
+    overflow: hidden;
+    padding: 5px;
+}
+
+#nightPhotographyTitle{
+	position: absolute;
+	font-size: 1.53em;
+	height: 30px;
+	margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(192,192,192,0.3);
+    overflow: hidden;
+    padding: 5px;
+}
+
+#miscTitle{
+	position: absolute;
+	font-size: 1.53em;
+	height: 30px;
+	margin-top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    background: rgba(192,192,192,0.3);
+    overflow: hidden;
+    padding: 5px;
+}
+
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+
+
+/* ===========================
+   ====== Contact Form ======= 
+   =========================== */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+/* Put a layer*/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+.cancel_btn {float:left; border: 1px solid #D8D8D8; padding: 15px 45px 15px 45px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; background: #F8F8F8;}
+.cancel_btn:hover { background: #ECECEC;}
+
+.submit_btn {float:right; border: 1px solid #D8D8D8; padding: 15px 45px 15px 45px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; background: #F8F8F8;}
+.submit_btn:hover { background: #ECECEC;}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+
+.popupBody {padding:20px;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+/* User Register Form */
+.user_contact label {display: block; margin-bottom:5px;}
+.user_contact input[type="text"], .user_contact input[type="email"], .user_contact input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+.user_contact input[type="checkbox"] {float:left; margin-right:5px;}
+.user_contact input[type="checkbox"]+label {float:left;}
+.user_contact .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+/* Close the fieldset*/
+#contact_form {
+	display : none;
+}
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$(".menu-pic-item").fadeTo("slow",0.5);
+	
+	$(".menu-pic-item").hover(function(){
+		$(this).fadeTo("slow",1);
+	});
+  
+	$(".menu-pic-item").mouseout(function(){
+		$(this).fadeTo("slow",0.5);
+	});
+	
+});
+</script>
+
+<style>
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+	margin-right: 10px;
+}
+
+.menu-pic-item  h3{
+	position: absolute;
+	margin-left: 10px;
+	color: #FFFFFF;
+}
+
+.menu-pic-item span{
+	display: block;
+	font-size: 0.8em;
+}
+
+</style>
+			
+
+	
+	<div id="sidebar">
+		<div class="sidebar">
+			<div class="sidebar-items">
+	
+				<div class="menu-pic-item">
+					<a href="#">
+						<h3>Landscape<span> Greenland</span></h3>
+					</a>
+					<img width="300" height="85" src="a.jpg"/>										
+				</div>
+													
+				<div class="menu-pic-item">
+					<a href="#">
+						<h3>Portrait<span> Greenland</span></h3>
+					</a>
+					<img width="300" height="85" src="portrait.jpg"/>									
+				</div>
+													
+				<div class="menu-pic-item">
+					<a href="#">
+						<h3>Wild Life<span> Iceland</span></h3>
+					</a>
+					<img width="300" height="85" src="plant.jpg"/>								
+				</div>
+				
+				<div class="menu-pic-item">
+					<a href="#">
+						<h3>Plant<span> Iceland</span></h3>
+					</a>
+					<img width="300" height="85" src="wildlife.jpg"/>								
+				</div>
+				
+				<div class="menu-pic-item">
+					<a href="#">
+						<h3>Night Sky<span> Iceland</span></h3>
+					</a>
+					<img width="300" height="85" src="c.jpg"/>								
+				</div>
+				
+				<div class="menu-pic-item">
+					<a href="#">
+						<h3>Misc<span> Iceland</span></h3>
+					</a>
+					<img width="300" height="85" src="b.jpg"/>								
+				</div>
+		
+		
+			</div><!-- end:div.sidebar-items -->
+		</div><!-- end:div.sidebar -->
+	</div><!-- end:div#sidebar -->
+	
+

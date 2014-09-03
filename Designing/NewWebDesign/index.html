@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ou Ye Photography</title>	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+	<script type="text/javascript" src="js/java.js"></script>
+	<script async="true" src="PictureFill/picturefill.js"></script>
+	
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/slider_style.css" />
+
+	<link type="text/css" rel="stylesheet" href="jBox/Source/jBox.css" />
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/ModalBorder.css"/>
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/NoticeBorder.css"/>
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/TooltipBorder.css"/>
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/TooltipDark.css"/>
+	<script src="jBox/Source/jBox.js"></script>
+	<script src="jBox/Source/jBox.min.js"></script>
+	
+	<script type="text/javascript" src="WoWSilder/"></script>
+	<script type="text/javascript" src="WoWSilder/sample/script.js"></script>
+	
+</head>
+
+<body class="body">
+	<header class="mainHeader">
+
+		<div class="header-box">
+			<div class="logo">
+	 	 		<img  width="125" height="85" src="logo.png"/>
+		  	</div>
+		  	
+			<nav>
+				<ul id="choices">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a id="modal_trigger" href="#modal">Contact</a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div id="sidebar">
+			<div class="sidebar">
+				<div class="sidebar-items">
+							
+					<div class="menu-pic-item">
+						<a href="#">
+							<h3>Landscape<span> Greenland</span></h3>
+						</a>
+						<img width="300" height="85" src="img/categories/landscape.jpg"/>										
+					</div>
+														
+					<div class="menu-pic-item">
+						<a href="#">
+							<h3>Portrait<span> Greenland</span></h3>
+						</a>
+						<img width="300" height="85" src="img/categories/portrait.jpg"/>									
+					</div>
+														
+					<div class="menu-pic-item">
+						<a href="#">
+							<h3>Wild Life<span> Iceland</span></h3>
+						</a>
+						<img width="300" height="85" src="img/categories/wildlife.JPG"/>								
+					</div>
+					
+					<div class="menu-pic-item">
+						<a href="#">
+							<h3>Plant<span> Iceland</span></h3>
+						</a>
+						<img width="300" height="85" src="img/categories/plant.JPG"/>								
+					</div>
+					
+					<div class="menu-pic-item">
+						<a href="#">
+							<h3>Night Sky<span> Iceland</span></h3>
+						</a>
+						<img width="300" height="85" src="img/categories/nightsky.jpg"/>								
+					</div>
+					
+					<div class="menu-pic-item">
+						<a href="#">
+							<h3>Misc<span> Iceland</span></h3>
+						</a>
+						<img width="300" height="85" src="img/categories/misc.JPG"/>								
+					</div>
+
+				</div><!-- end:div.sidebar-items -->
+			</div><!-- end:div.sidebar -->
+		</div><!-- end:div#sidebar -->
+
+	</header>
+	
+<body>
+	
+	
+	<div class="galleries">
+		<div id="wowslider-container">
+			<div class="ws_images">		
+				<ul>
+					<li><img src="img/Index/a.JPG" /></li>
+					<li><img src="img/Index/b.jpg" /></li>
+					<li><img src="img/Index/c.jpg" /></li>
+					<li><img src="img/Index/d.jpg" /></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!--
+    <div class="galleries">
+    	
+    	<table class="table_pictures" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<div class="index-photo-containter"><a href="img/a.jpg"><img src="img/a.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/b.jpg"><img src="img/b.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/c.jpg"><img src="img/c.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/d.jpg"><img src="img/d.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/e.jpg"><img src="img/e.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/f.jpg"><img src="img/f.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/g.jpg"><img src="img/g.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/h.jpg"><img src="img/h.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/i.jpg"><img src="img/i.jpg"></a></div>
+				<div class="index-photo-containter"><a href="img/j.jpg"><img src="img/j.jpg"></a></div>
+			</td>
+		</tr>
+		
+		</table>
+ 	</div>
+	
+	-->
+ 	
+	<div class="container">
+		<div id="modal" class="popupContainer" style="display:none;">
+			<header class="popupHeader">
+				<span class="header_title">Contact</span>
+				<span class="modal_close"><i class="fa fa-times"></i></span>
+			</header>
+			<section class="popupBody">
+	 		<!-- Register Form -->
+			<div class="user_contact">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

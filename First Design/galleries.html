@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ou Ye Photography</title>	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+	<script type="text/javascript" src="js/java.js"></script>
+
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<link type="text/css" rel="stylesheet" href="jBox/Source/jBox.css" />
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/ModalBorder.css"/>
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/NoticeBorder.css"/>
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/TooltipBorder.css"/>
+	<link type="text/css" rel="stylesheet" href="jBox/Source/themes/TooltipDark.css"/>
+	<script src="jBox/Source/jBox.js"></script>
+	<script src="jBox/Source/jBox.min.js"></script>
+	
+</head>
+
+<body class="body">
+	<header class="mainHeader">
+	  <nav>
+	  	<ul id="choices">
+	  		<li class="website_title">Ou Ye</li>
+			<li class="active"><a href="index.html">Home</a></li>
+            <li><a href="galleries.html">Galleries</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a id="modal_trigger" href="#modal">Contact</a></li>
+		</ul>
+		</nav>
+	</header>
+
+	<div class="categories">
+		<div class="photoContainter">
+			<a href="img/categories/langscape.jpg">
+				<img id="landscape" src="img/categories/langscape.jpg" ></a>
+			<div id="landscapeTitleBox">
+				<p id="landscapeTitle">Landscape</p>
+			</div>
+		</div>
+
+		<div class="photoContainter">
+			<a href="img/categories/portrait.jpg">
+				<img id="portrait" src="img/categories/portrait.jpg"></a>
+			<div id="portraitTitleBox">
+				<p id="portraitTitle">Portrait</p>
+			</div>
+		</div>
+	
+		<div class="photoContainter">
+			<a href="img/categories/wildlife.jpg">
+				<img id="wildlife" src="img/categories/wildlife.jpg" ></a>
+			<div id="wildlifeTitleBox">
+				<p id="wildlifeTitle">Wild Life</p>
+			</div>
+		</div>
+			
+		<div class="photoContainter">
+			<a href="img/categories/plant.jpg">
+				<img id="plant" src="img/categories/plant.jpg"></a>
+			<div id="plantTitleBox">
+				<p id="plantTitle">Plant</p>
+			</div>
+		</div>
+		
+		<div class="photoContainter">
+			<a href="img/categories/night photography.jpg">
+				<img id="nightPhotography" src="img/categories/night photography.jpg"></a>
+			<div id="nightPhotographyTitleBox">
+				<p id="nightPhotographyTitle">Night Photography</p>
+			</div>
+		</div>
+ 	</div>
+	 	
+	<div class="container">
+		<div id="modal" class="popupContainer" style="display:none;">
+			<header class="popupHeader">
+				<span class="header_title">Contact</span>
+				<span class="modal_close"><i class="fa fa-times"></i></span>
+			</header>
+			<section class="popupBody">
+	 		<!-- Register Form -->
+			<div class="user_contact">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

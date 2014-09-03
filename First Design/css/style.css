@@ -1,0 +1,262 @@
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+body{
+	background-color:hsla(250,20%,0%,0.9);	
+}
+		
+		
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+   
+/*
+.categories a:hover{
+	background: #888888;
+	opacity: 0.5;
+	position: relative;
+}
+*/
+
+.mainHeader nav {
+	font-size: 1.53em;
+	height: 50px;
+	line-height: 70px;
+	text-align: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	position: absolute;
+}
+
+.mainHeader nav ul {
+	list-style: none; 
+	margin-top: -10px;
+	margin-left: -10px;
+	position: fixed;
+	height: 110%;
+	background-color:rgba(192,192,192,0.3);
+	padding: 55px;
+}
+
+.mainHeader nav ul .website_title{
+	height: 150px;
+	font-size: 1.143em;
+}
+
+.mainHeader nav ul li {
+	display: block;
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 0px;
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
+/* ========== Index ==========
+   == Galleries Content Area =
+   =========================== */
+  
+.galleries {
+	position: absolute;
+	left: 190px;
+	width: 80%;
+	height: auto;
+	margin-top: -8px;
+	/*margin: 3% 0; */
+}
+
+.galleries img{
+	margin: 0px;
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+    float: left;
+}
+
+.testTable td{
+	height: 464px;
+}
+
+.testTable {
+	width: 110%;
+}
+
+
+/* ======= Galleries =========
+   == Galleries Content Area =
+   =========================== */
+.categories {
+	position: absolute;
+	left: 250px;
+	width: 80%;
+	height: auto;
+	margin: 3% 0;
+}
+
+.categories img{
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.photoContainter{
+	display: inline-block;
+	width: 45%;
+}
+
+
+#landscapeTitleBox{
+	background-color:rgba(192,192,192,0.3);
+	position: relative;
+	font-size: 1.53em;
+	height: 30px;
+	top: -34px;
+}
+
+#landscapeTitle{
+	position: absolute;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#portraitTitleBox{
+	background-color:rgba(192,192,192,0.3);
+	position: relative;
+	font-size: 1.53em;
+	height: 30px;
+	top: -34px;
+}
+
+#portraitTitle{
+	position: absolute;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#wildlifeTitleBox{
+	background-color:rgba(192,192,192,0.3);
+	position: relative;
+	font-size: 1.53em;
+	height: 30px;
+	top: -34px;
+}
+
+#wildlifeTitle{
+	position: absolute;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#plantTitleBox{
+	background-color:rgba(192,192,192,0.3);
+	position: relative;
+	font-size: 1.53em;
+	height: 30px;
+	top: -34px;
+}
+
+#plantTitle{
+	position: absolute;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#nightPhotographyTitleBox{
+	background-color:rgba(192,192,192,0.3);
+	position: relative;
+	font-size: 1.53em;
+	height: 30px;
+	top: -34px;
+}
+
+#nightPhotographyTitle{
+	position: absolute;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+
+
+/* ===========================
+   ====== Contact Form ======= 
+   =========================== */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+/* Put a layer*/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #FFF;
+}
+
+.cancel_btn {float:left; border: 1px solid #D8D8D8; padding: 15px 45px 15px 45px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; background: #F8F8F8;}
+.cancel_btn:hover { background: #ECECEC;}
+
+.submit_btn {float:right; border: 1px solid #D8D8D8; padding: 15px 45px 15px 45px; color: #8D8D8D; text-shadow: 1px 1px 1px #FFF; background: #F8F8F8;}
+.submit_btn:hover { background: #ECECEC;}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+
+.popupBody {padding:20px;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+/* User Register Form */
+.user_contact label {display: block; margin-bottom:5px;}
+.user_contact input[type="text"], .user_contact input[type="email"], .user_contact input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+.user_contact input[type="checkbox"] {float:left; margin-right:5px;}
+.user_contact input[type="checkbox"]+label {float:left;}
+.user_contact .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+/* Close the fieldset*/
+#contact_form {
+	display : none;
+}
+
+
+
+
+
+
